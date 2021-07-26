@@ -4,11 +4,7 @@ import {StyleSheet, Text, View, Image, Button, focused, TouchableOpacity} from '
 const HomeScreen = ({navigation}) => {
     return (
         <View style = {styles.container}>
-            <Text> Home Screen</Text>
-            <Button
-                title = "Click Here"
-                onPress = {() => alert('Button Clicked!')}
-            />
+            <Text style = {{color: '#FFA62B', fontSize: 20}}> Coming soon! </Text>
         </View>
     );
 }

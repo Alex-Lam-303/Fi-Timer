@@ -4,10 +4,10 @@ import { View, Text, Button, StyleSheet } from 'react-native';
 const SettingsScreen = ({navigation}) => {
     return (
         <View style = {styles.container}>
-            <Text> SettingsScreen</Text>
+            <Text style = {{color: '#FFA62B', fontSize: 20}}> Coming soon! </Text>
             <Button
                 title = "Click Here"
-                onPress = {() => alert('Button Clicked!')}
+                onPress = {() => alert('Tings is a poo!')}
             />
         </View>
     );
